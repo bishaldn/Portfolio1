@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bishal Deep Nath - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="sidebar sidebarGo">
+        
+      <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="/intro.html">My Intro</a></li>
+        <li><a href="projects.html">My Projects</a></li>
+        <li><a href="resume/resume_bishaldeepnath.pdf">Resume</a> </li>
+        <li><a href="contact.html" target="_blank">Contact Me</a></li>
+        
+       </ul>
+      </nav> 
+    </div>
+    <div class="main">
+        <div class="social">
+            <div class="git"><img class="github" src="icons8-github-64.png" alt="" width="20px"></div>
+            <img class="linkdin" src="icons8-linkedin-circled-50.png" alt="" width="20px">
+        </div>
+        <div class="HamBurger">
+            <img class="bar" src="menu-button-of-three-horizontal-lines.png" alt="" width="30px">
+            <img class="cancel" src="cancel.png" alt="" width="20px">
+        </div>
+        <div class="infoContainer">
+            <div class="devInfo">
+                <div class="hello">Hi! </div>
+                <div class="hello"> My name is </div>
+                <div class="name">Bishal Deep Nath</div>
+                <div class="text-wrapper">
+                    <div class="static-txt">I am</div>
+                    <ul class="dynamic-txts">
+                      <li><span>A Developer</span></li>
+                      <li><span>Currently Persuing B.Tech</span></li>
+                      <li><span>in Information Technology</span></li>
+               
+                    </ul>
+                </div>  
+
+
+
+
+                <div class="buttons">
+                    <button><a href="/resume/resume_bishaldeepnath.pdf">Download Resume</a></button>
+                    <button><a href="contact.html">Contact Me</a></button>
+                </div>
+            
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+
+//for sidebar//
+<script>
+   
+document.querySelector('.cancel').style.display= 'none';
+document.querySelector('.HamBurger').addEventListener("click", ()=>{
+    document.querySelector('.sidebar').classList.toggle('sidebarGo');
+    
+})
+
+
+
+</script>
+
+
+</body>
+</html>

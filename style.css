@@ -1,0 +1,203 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Roboto+Mono&family=Rubik&family=Source+Code+Pro:wght@300&family=Ubuntu&display=swap');
+*{
+    padding : 0px;
+    margin :  0px;
+}
+
+.sidebar{
+     background-color: rgb(214, 205, 205);
+    
+    height: 100vh;
+    font-family: 'Roboto Mono', monospace;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding : 45px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding : 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color:;
+    width : 80vw;
+    padding: 9px 86px;
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    display:flex;
+}
+.infoContainer{
+    background-color: ;
+    height: 80vh;
+    width: 84vw;
+    margin: 20px;;
+     display: flex ;
+     justify-content:center ;
+}
+.devInfo{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    padding: ;
+}
+.hello{
+    font-size: 36px;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+.name{
+     font-size: 63px ;
+     font-weight: bold;
+     font-family: 'Roboto Mono', monospace;
+     
+     
+}
+.buttons{
+    margin-top: 73px;
+}
+.buttons button{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    border-color: black;
+    box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+    cursor: pointer;
+    border-radius: 10px;
+    color:#FFFFFF;
+    margin: 0 10px;
+    background-color: #3369ff;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.buttons button:hover{
+    background-color: white;
+    color: rgb(90, 90, 241);
+}
+.buttons button a{
+    text-decoration: none;
+    color: black;
+    
+}
+.buttons button a:hover{
+    background-color:white;
+    color: rgb(90, 90, 241);
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.HamBurger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cancel{
+    margin-left: 124px;
+}
+.social{
+    display: flex;
+}
+.git{
+    width: 80vw;
+  }
+.github {
+    width: 46px;
+    float: right;    
+  }
+  .linkdin {
+    width: 42px;
+    float: right; 
+  }
+
+@media(max-width: 800px){
+    .infoContainer{
+        background-color: rgb(207, 191, 191);
+    }
+    /*.sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }*/
+}
+
+
+.main-box{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  .text-wrapper{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  .text-wrapper .static-txt{
+        color: black;
+        font-size: 40px;
+        font-weight: 400;
+  }
+  .text-wrapper .dynamic-txts{
+    margin-left: 15px;
+    line-height: 53px;
+    height: 53px;
+    overflow:hidden ;
+    
+    position: relative;
+    
+  }
+  @keyframes slide {
+    100%{
+      top: -159px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  .dynamic-txts li{
+        list-style: none;
+        color: black;
+        font-size: 40px;
+        font-weight: 500;
+        position: relative;
+        top: 0;
+        animation: slide 9s steps(3) infinite;
+       
+  }
+  .dynamic-txts li{
+    position: relative;
+  }
+  
+  .dynamic-txts li ::after{
+    content:" ";
+    position : absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left:  2px solid rgb(26, 24, 24);
+    background-color : white;
+    animation: typing 3s steps(10) infinite;
+  }  
+  
+  @keyframes typing{
+    40%,
+    60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
