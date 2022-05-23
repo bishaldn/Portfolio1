@@ -42,7 +42,7 @@
 .infoContainer{
     background-color: ;
     height: 80vh;
-    width: 84vw;
+    width: 82vw;
     margin: 20px;;
      display: flex ;
      justify-content: ;
@@ -51,7 +51,7 @@
     justify-content: center;
     flex-direction: column;
     display: flex;
-    padding: ;
+    width: 84vw ;
 }
 .hello{
     font-size: 36px;
@@ -151,6 +151,7 @@
         color: black;
         font-size: 40px;
         font-weight: 400;
+        width: 601px;
   }
   .text-wrapper .dynamic-txts{
     margin-left: 15px;
