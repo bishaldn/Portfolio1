@@ -145,13 +145,14 @@
   .text-wrapper{
     display: flex;
     font-family: 'Roboto', sans-serif;
+      width: 587px;
   
   }
   .text-wrapper .static-txt{
         color: black;
         font-size: 40px;
         font-weight: 400;
-        width:;
+        width:81px;
   }
   .text-wrapper .dynamic-txts{
     margin-left: 15px;
