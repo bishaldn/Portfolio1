@@ -8,7 +8,7 @@
 
 .sidebar{
      background-color: rgb(47, 59, 81);
-    
+    width: 235px;
     height: 100vh;
     font-family: 'Roboto Mono', monospace;
     transition: transform 0.3s ease-in;
