@@ -32,17 +32,18 @@
 }
 .main{
     background-color:;
-    width : 80vw;
-    padding: 9px 86px;
+    width : 118vw;
+    padding: 9px 15px;
     font-family: 'Roboto Mono', monospace;
 }
 .container{
     display:flex;
+    width: 150vw;
 }
 .infoContainer{
     background-color: ;
     height: 80vh;
-    width: 82vw;
+    width: 117vw;
     margin: 20px;;
      display: flex ;
      justify-content: ;
@@ -51,7 +52,7 @@
     justify-content: center;
     flex-direction: column;
     display: flex;
-    width: 84vw ;
+    width: 117vw ;
 }
 .hello{
     font-size: 36px;
@@ -145,7 +146,7 @@
   .text-wrapper{
     display: flex;
     font-family: 'Roboto', sans-serif;
-      width: 587px;
+      width: 707px;
   
   }
   .text-wrapper .static-txt{
@@ -157,9 +158,9 @@
   .text-wrapper .dynamic-txts{
     margin-left: 15px;
     line-height: 53px;
-    height: 53px;
+    height: 50px;
     overflow:hidden ;
-    
+    width: 601px;
     position: relative;
     
   }
