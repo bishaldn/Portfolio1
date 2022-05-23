@@ -7,24 +7,28 @@
 }
 
 .sidebar{
-     background-color: rgb(214, 205, 205);
+     background-color: rgb(47, 59, 81);
     
     height: 100vh;
     font-family: 'Roboto Mono', monospace;
     transition: transform 0.3s ease-in;
 }
 .sidebar nav{
-    padding : 45px;
+  padding: 0px;
+  width: 28vw;
+  margin: 171px 0 0 0;
     
 }
 .sidebar nav li{
-    list-style: none;
-    font-size: 20px;
-    padding : 33px 0;
+  list-style: none;
+  font-size: 18px;
+  padding: 6px -5px;
+  margin: 37px 1px 51px 27px;
+  color: white;
 }
 .sidebar nav li a{
     text-decoration: none;
-    color: black;
+    color: rgb(236, 226, 226);
 }
 .main{
     background-color:;
@@ -41,7 +45,7 @@
     width: 84vw;
     margin: 20px;;
      display: flex ;
-     justify-content:center ;
+     justify-content: ;
 }
 .devInfo{
     justify-content: center;
@@ -53,6 +57,7 @@
     font-size: 36px;
     font-family: 'Rubik', sans-serif;
     font-family: 'Source Code Pro', monospace;
+    font-weight: bolder;
 }
 .name{
      font-size: 63px ;
@@ -121,7 +126,7 @@
 
 @media(max-width: 800px){
     .infoContainer{
-        background-color: rgb(207, 191, 191);
+        background-color:;
     }
     /*.sidebar{
         transform: translate(-443px,0px);
