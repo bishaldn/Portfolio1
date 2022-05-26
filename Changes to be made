@@ -1,0 +1,14 @@
+.infoContainer {
+  background-color: ;
+  height: ;
+  width: 117vw;
+  margin: 20px;
+  display: flex;
+  justify-content: ;
+  //
+  devInfo {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 117vw;
+}
